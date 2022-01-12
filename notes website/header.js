@@ -4,7 +4,11 @@ var htmlHeader = document.getElementById("html-header")
 var cssButton = document.getElementById("css-link");
 var cssHeader = document.getElementById("css-header");
 
+var htmlExtra = document.getElementById("");
+var 
+
 var opened = "none";
+
 
 htmlButton.addEventListener("click", showHtmlHeader);
 cssButton.addEventListener("click", showCssHeader);
