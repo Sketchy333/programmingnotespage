@@ -4,11 +4,11 @@ var htmlHeader = document.getElementById("html-header")
 var cssButton = document.getElementById("css-link");
 var cssHeader = document.getElementById("css-header");
 
-var basicHtml = document.getElementById("basic-html");
+/*var basicHtml = document.getElementById("basic-html");
 var htmlExtra = document.getElementById("html-extra");
 
 var basicCss = document.getElementById("basic-css");
-var flexbox = document.getElementById("flexbox");
+var flexbox = document.getElementById("flexbox");*/
 
 var title = document.getElementById("header-title");
 
@@ -20,10 +20,10 @@ title.addEventListener("click", openDifferentPage)
 htmlButton.addEventListener("click", showHtmlHeader);
 cssButton.addEventListener("click", showCssHeader);
 
-basicHtml.addEventListener("click", openDifferentPage);
+/*basicHtml.addEventListener("click", openDifferentPage);
 htmlExtra.addEventListener("click", openDifferentPage);
 basicCss.addEventListener("click", openDifferentPage);
-flexbox.addEventListener("click", openDifferentPage);
+flexbox.addEventListener("click", openDifferentPage);*/
 
 
 function showHtmlHeader(){
