@@ -4,14 +4,23 @@ var htmlHeader = document.getElementById("html-header")
 var cssButton = document.getElementById("css-link");
 var cssHeader = document.getElementById("css-header");
 
-var htmlExtra = document.getElementById("");
-var 
+var basicHtml = document.getElementById("basic-html");
+var htmlExtra = document.getElementById("html-extra");
+
+var basicCss = document.getElementById("basic-css");
+var flexbox = document.getElementById("flexbox");
 
 var opened = "none";
 
 
 htmlButton.addEventListener("click", showHtmlHeader);
 cssButton.addEventListener("click", showCssHeader);
+
+basicHtml.addEventListener("click", openDifferentPage);
+htmlExtra.addEventListener("click", openDifferentPage);
+basicCss.addEventListener("click", openDifferentPage);
+flexbox.addEventListener("click", openDifferentPage);
+
 
 function showHtmlHeader(){
     if(opened == "none"){
@@ -38,5 +47,17 @@ function showCssHeader(){
     }else{
         cssHeader.className = "hide";
         opened = "none";
+    }
+}
+
+function openDifferentPage(){
+    if(this.attributes.id.value == basicHtml.attributes.id.value){
+        window.open("htmlbasic.html", "_self");
+    }else if(this.attributes.id.value == htmlExtra.attributes.id.value){
+        window.open("htmlExtraSectionTags.html", "_self");
+    /*}else if(this.attributes.id.value == basicCss.attributes.id.value){
+        window.open("htmlExtraSectionTags.html", "_self");
+    }else if(this.attributes.id.value == flexbox.attributes.id.value){
+        window.open("htmlExtraSectionTags.html", "_self");*/
     }
 }
