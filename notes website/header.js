@@ -10,8 +10,12 @@ var htmlExtra = document.getElementById("html-extra");
 var basicCss = document.getElementById("basic-css");
 var flexbox = document.getElementById("flexbox");
 
+var title = document.getElementById("header-title");
+
 var opened = "none";
 
+
+title.addEventListener("click", openDifferentPage)
 
 htmlButton.addEventListener("click", showHtmlHeader);
 cssButton.addEventListener("click", showCssHeader);
@@ -59,5 +63,7 @@ function openDifferentPage(){
         window.open("cssbasics.html", "_self");
     /*}else if(this.attributes.id.value == flexbox.attributes.id.value){
         window.open("htmlExtraSectionTags.html", "_self");*/
+    }else if(this.attributes.id.value == title.attributes.id.value){
+        window.open("index.html", "_self");
     }
 }
