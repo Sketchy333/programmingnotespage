@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Basics</title>
+    <link href="cssBasicsStyle.css" rel="stylesheet" type="text/css">
+</head>
+<header id="header-main">
+    <header id="header">
+        <div id="title">
+            <h1 id="header-title">Programming Notes</h1>
+        </div>
+        <nav id="nav-bar">
+        <ul>
+            <li><a id="html-link" class="nav-link">HTML</a>
+            <li><a id="css-link" class="nav-link">CSS</a>
+        </ul>
+        </nav>
+    </header>
+    <header id="html-header" class="hide">
+        <div id="title">
+            <h1 id="header-title">HTML</h1>
+        </div>
+        <nav id="nav-bar">
+        <ul>
+            <li><a id="basic-html" class="nav-link">Basic Html</a>
+            <li><a id="html-extra" class="nav-link">Extra Section Tags</a>
+        </ul>
+        </nav>
+    </header>
+    <header id="css-header" class="hide">
+        <div id="title">
+            <h1 id="header-title">CSS</h1>
+        </div>
+        <nav id="nav-bar">
+        <ul>
+            <li><a id="basic-css" class="nav-link">Basic CSS</a>
+            <li><a id="flexbox" class="nav-link">FlexBox</a>
+        </ul>
+        </nav>
+    </header>
+    <script src="header.js"></script>
+</header>
+<body>
+    <div class="buffer"></div>
+    <h1 class="page-title">CSS Basics</h1>
+    <div id="introduction" class="intro">
+        <p>CSS stands for cascading style sheets and is often used in combination with html and javascript. It allows developers to format their websites better and adds many options to improve the overall quality of the website. Flexbox and grid can be used in css to help align elements easily on the page. Checkout flexbox under css in the header to learn more.</p>
+    </div>
+    <ul class="main-ul">
+        <li class="main-li">Use the name of a tag followed by brackets to create a CSS class.</li>
+        <li class="main-li li-dark">Put properties of the brackets such as color: and background: to edit the certain properties of a tag.</li>
+        <li class="main-li">Ex: </li>
+        <div class="code-container">
+            <div class="code">
+                <code>
+                    body{<br>
+                    <span class="tab"></span>background: blue;<br>
+                    <span class="tab"></span>font-family: monospace;<br>
+                    <span class="tab"></span>font-size: 2rem;<br>
+                    }
+                </code>
+            </div>
+        </div>
+        <li class="main-li li-dark">To create a custom class, put a period in front of the name of the class, then add the attribute class=”class-name” to the element.</li>
+        <div class="code-container">
+            <div class="code">
+                <code>
+                    .blue{<br>
+                    <span class="tab"></span>background-color: #05386B;<br>
+                    }
+                </code>
+            </div>
+        </div>
+        <li class="main-li">To create a class for an element by an id, use #</li>
+        <div class="code-container">
+            <div class="code">
+                <code>
+                    #box{<br>
+                    <span class="tab"></span>color: #5CDB95;<br>
+                    <span class="tab"></span>text-align: center;<br>
+                    <span class="tab"></span>font-family: monospace<br>
+                    <span class="tab"></span>font-size: 35px;<br>
+                    }
+                </code>
+            </div>
+        </div>
+    </ul>
+</body>
+</html>

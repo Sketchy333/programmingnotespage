@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link href="flexboxStyle.css" rel="stylesheet" type="text/css">
+</head>
+<header id="header-main">
+    <header id="header">
+        <div id="title">
+            <h1 id="header-title">Programming Notes</h1>
+        </div>
+        <nav id="nav-bar">
+        <ul>
+            <li><a id="html-link" class="nav-link">HTML</a>
+            <li><a id="css-link" class="nav-link">CSS</a>
+        </ul>
+        </nav>
+    </header>
+    <header id="html-header" class="hide">
+        <div id="title">
+            <h1 id="header-title">HTML</h1>
+        </div>
+        <nav id="nav-bar">
+        <ul>
+            <li><a id="basic-html" class="nav-link">Basic Html</a>
+            <li><a id="html-extra" class="nav-link">Extra Section Tags</a>
+        </ul>
+        </nav>
+    </header>
+    <header id="css-header" class="hide">
+        <div id="title">
+            <h1 id="header-title">CSS</h1>
+        </div>
+        <nav id="nav-bar">
+        <ul>
+            <li><a id="basic-css" class="nav-link">Basic CSS</a>
+            <li><a id="flexbox" class="nav-link">FlexBox</a>
+        </ul>
+        </nav>
+    </header>
+    <script src="header.js"></script>
+</header>
+<body>
+    <div class="buffer"></div>
+    <h1 class="page-title">Flexbox</h1>
+    <div id="introduction" class="intro">
+        <p>Flexbox can be used to format elements in css. It can be accessed by putting display: flex; in a parent elements class.</p>
+    </div>
+    <ul class="main-ul">
+        <li class="main-li">Display flex aligns all the child elements evenly.</li>
+        <li class="main-li li-dark">Use flex-direction to change if the elements align in a row or column.</li>
+        <li class="main-li">Justify-content aligns the elements on the x-axis (main axis)</li>
+        <li class="main-li li-dark">Align-items aligns the elements on the y-axis (cross axis)</li>
+    </ul>
+</body>
+</html>

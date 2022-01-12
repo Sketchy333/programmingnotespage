@@ -82,6 +82,11 @@ nav > ul {
 
 
 /*Page Classes*/
+.page-title{
+    margin-left: 20px;
+}
+
+
 .show {
     display: flex;
 }
@@ -97,7 +102,7 @@ nav > ul {
 .intro{
     font-size: 20px;
     color: white;
-    background-color: #4e4e50;
+    background-color: rgba(149, 7, 64, 1);
     padding: 10px;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -117,7 +122,7 @@ nav > ul {
     margin: 10px;
 }
 
-li{ /*add main li so header li not affected*/
+.main-li{ /*add main li so header li not affected*/
     font-size: 30px;
     line-height: 45px;
     margin: 10px;
