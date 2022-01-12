@@ -117,7 +117,7 @@ nav > ul {
     margin: 10px;
 }
 
-li{ /*add main li so header li not affected*/
+.main-li{ /*add main li so header li not affected*/
     font-size: 30px;
     line-height: 45px;
     margin: 10px;
