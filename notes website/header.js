@@ -62,7 +62,7 @@ function openDifferentPage(){
     }else if(this.attributes.id.value == basicCss.attributes.id.value){
         window.open("cssbasics.html", "_self");
     }else if(this.attributes.id.value == flexbox.attributes.id.value){
-        window.open("=flexbox.html", "_self");
+        window.open("flexbox.html", "_self");
     }else if(this.attributes.id.value == title.attributes.id.value){
         window.open("index.html", "_self");
     }
