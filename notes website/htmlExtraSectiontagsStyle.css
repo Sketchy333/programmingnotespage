@@ -82,6 +82,11 @@ nav > ul {
 
 
 /*Page Classes*/
+
+.page-title{
+    margin-left: 20px;
+}
+
 .show {
     display: flex;
 }
