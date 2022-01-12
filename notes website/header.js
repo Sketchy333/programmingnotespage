@@ -55,7 +55,7 @@ function showCssHeader(){
 }
 
 function openDifferentPage(){
-    if(this.attributes.id.value == basicHtml.attributes.id.value){
+    /*if(this.attributes.id.value == basicHtml.attributes.id.value){
         window.open("htmlbasic.html", "_self");
     }else if(this.attributes.id.value == htmlExtra.attributes.id.value){
         window.open("htmlExtraSectionTags.html", "_self");
@@ -63,7 +63,7 @@ function openDifferentPage(){
         window.open("cssbasics.html", "_self");
     }else if(this.attributes.id.value == flexbox.attributes.id.value){
         window.open("flexbox.html", "_self");
-    }else if(this.attributes.id.value == title.attributes.id.value){
+    }else*/ if(this.attributes.id.value == title.attributes.id.value){
         window.open("index.html", "_self");
     }
 }
