@@ -128,3 +128,7 @@ nav > ul {
 .li-dark{
     color: rgba(149, 7, 64, 1);
 }
+
+.code{
+    background-color: #4e4e50;
+}

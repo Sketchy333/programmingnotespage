@@ -55,9 +55,9 @@ function openDifferentPage(){
         window.open("htmlbasic.html", "_self");
     }else if(this.attributes.id.value == htmlExtra.attributes.id.value){
         window.open("htmlExtraSectionTags.html", "_self");
-    /*}else if(this.attributes.id.value == basicCss.attributes.id.value){
-        window.open("htmlExtraSectionTags.html", "_self");
-    }else if(this.attributes.id.value == flexbox.attributes.id.value){
+    }else if(this.attributes.id.value == basicCss.attributes.id.value){
+        window.open("cssbasics.html", "_self");
+    /*}else if(this.attributes.id.value == flexbox.attributes.id.value){
         window.open("htmlExtraSectionTags.html", "_self");*/
     }
 }
